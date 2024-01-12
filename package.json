@@ -2,6 +2,10 @@
 	"name": "svelte-package",
 	"version": "0.0.1",
 	"private": true,
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/BrunoCostaPrado/svelte-form.git"
+	},
 	"scripts": {
 		"dev": "vite dev",
 		"build": "pnpm lint && pnpm check && vite build",
