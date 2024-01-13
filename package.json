@@ -12,7 +12,8 @@
 		"preview": "vite preview",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
-		"lint": "prettier --write . && eslint src --ext .ts --fix"
+		"lint": "prettier --write . && eslint src --ext .ts --fix",
+		"test": "echo \"No test specified\""
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-node": "^3.0.0",

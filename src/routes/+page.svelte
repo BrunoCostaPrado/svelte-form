@@ -38,7 +38,7 @@
 		{#if $errors.password}
 			<small>{$errors.password}</small>
 		{/if}
-		
+
 		<br />
 		<Button type="submit" class="flex flex-col bg-blue-800">
 			<!-- <Mail class="mr-2 h-4 w-4" /> -->
